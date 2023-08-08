@@ -1,3 +1,4 @@
+
 /* @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap'); */
 *{
     margin: 0;
@@ -17,10 +18,15 @@ body{
 .wrapper{
     width: 70vh;
     height: 70vh;
-    background-color: rgb(19, 187, 131);
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
+    justify-content: center;
+    background: rgb(96, 238, 190);
     border-radius: 5px;
+    box-shadow: 0 20px 40px rgb(4, 70, 48);
 }
-.GameDetails{
+.game-details{
     color: aliceblue;
     font-size: 1.2rem;
     font-weight: 500;
@@ -29,10 +35,21 @@ body{
     justify-content: space-between;
 }
 
-.PlayBoard{
+.play-board{
     width: 100%;
     height: 100%;
-    background-color: rgb(243, 100, 124);
+    background-color: rgb(233, 126, 144);
     display: grid;
-    grid-template: 20;
+    grid-template: repeat(30, 1fr) / repeat(30, 1fr);
 }
+
+.play-board .food {
+    background: #eaff00;
+    border-radius: 50%;
+  }
+  .play-board .head {
+    background: aqua;
+    border-radius: 50%;
+  }
+ 
+
