@@ -1,3 +1,4 @@
+
 /* @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap'); */
 *{
     margin: 0;
@@ -50,38 +51,5 @@ body{
     background: aqua;
     border-radius: 50%;
   }
- /* .controls {
-    display: none;
-    justify-content: space-between;
-  }
-  .controls i {
-    padding: 25px 0;
-    text-align: center;
-    font-size: 1.3rem;
-    color: #B8C6DC;
-    width: calc(100% / 4);
-    cursor: pointer;
-    border-right: 1px solid #171B26;
-  }
-  @media screen and (max-width: 800px) {
-    .wrapper {
-      width: 90vmin;
-      height: 115vmin;
-    }
-    .game-details {
-      font-size: 1rem;
-      padding: 15px 27px;
-    }
-    .controls {
-      display: flex;
-    }
-    .controls i {
-      padding: 15px 0;
-      font-size: 1rem;
-    }
-  } */
+ 
 
-/* #resetbtn{
-    border: 4px solid;
-    cursor: pointer;
-} */
