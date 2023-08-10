@@ -13,8 +13,6 @@ body{
    justify-content: center;
     min-height: 100vh;
    background-image: url('https://cdn.wallpapersafari.com/66/44/zldaLS.jpg' );
-/* background-image: url('https://www.pngegg.com/en/png-bcwuf'); */
-  
    background-position: center center;
    background-size: cover;
    background-repeat: no-repeat;
@@ -31,9 +29,7 @@ body{
     overflow: hidden;
     flex-direction: column;
     justify-content: center;
-    /* background: rgb(194, 252, 3); */
     background-color: rgba(255, 255, 255, 0.7);
-
     border-radius: 5px;
     box-shadow: 0 20px 40px rgb(4, 70, 48);
 }
@@ -46,24 +42,15 @@ body{
     justify-content: space-between;
 }
 
-/* .play-board{
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 246, 221, 0.3);
-    display: grid;
-    background-image: none;
-    grid-template: repeat(30, 1fr) / repeat(30, 1fr);
-} */
 
  
 .play-board {
   width: 100%;
   height: 100%;
-  background-color: transparent; /* Remove the background color */
-  opacity: 0.7; /* Adjust the opacity value */
+  background-color: transparent;
+  opacity: 0.7; 
    background-image: url('https://cdn.wallpapersafari.com/66/44/zldaLS.jpg' );
-   /* background-image: url('your-image-url.jpg'); Add your background image URL */
-  background-position: center;
+   background-position: center;
   background-size: cover;
   display: grid;
   grid-template: repeat(30, 1fr) / repeat(30, 1fr);
