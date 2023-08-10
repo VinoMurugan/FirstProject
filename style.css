@@ -1,5 +1,4 @@
 
-/* @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap'); */
 *{
     margin: 0;
     padding: 0;
@@ -8,12 +7,22 @@
 }
 
 body{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    text-align: center;
+    display: grid;
+   align-items: left;
+   justify-content: center;
     min-height: 100vh;
-    background-color: rgb(26, 176, 176);
+   background-image: url('https://cdn.wallpapersafari.com/66/44/zldaLS.jpg' );
+/* background-image: url('https://www.pngegg.com/en/png-bcwuf'); */
+  
+   background-position: center center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   position: relative; 
 }
+
+
+
 
 .wrapper{
     width: 70vh;
@@ -22,12 +31,14 @@ body{
     overflow: hidden;
     flex-direction: column;
     justify-content: center;
-    background: rgb(96, 238, 190);
+    /* background: rgb(194, 252, 3); */
+    background-color: rgba(255, 255, 255, 0.7);
+
     border-radius: 5px;
     box-shadow: 0 20px 40px rgb(4, 70, 48);
 }
 .game-details{
-    color: aliceblue;
+    color: black;
     font-size: 1.2rem;
     font-weight: 500;
     padding: 20px 27px;
@@ -35,20 +46,36 @@ body{
     justify-content: space-between;
 }
 
-.play-board{
+/* .play-board{
     width: 100%;
     height: 100%;
-    background-color: rgb(233, 126, 144);
+    background-color: rgba(0, 246, 221, 0.3);
     display: grid;
+    background-image: none;
     grid-template: repeat(30, 1fr) / repeat(30, 1fr);
+} */
+
+ 
+.play-board {
+  width: 100%;
+  height: 100%;
+  background-color: transparent; /* Remove the background color */
+  opacity: 0.7; /* Adjust the opacity value */
+   background-image: url('https://cdn.wallpapersafari.com/66/44/zldaLS.jpg' );
+   /* background-image: url('your-image-url.jpg'); Add your background image URL */
+  background-position: center;
+  background-size: cover;
+  display: grid;
+  grid-template: repeat(30, 1fr) / repeat(30, 1fr);
 }
 
+
 .play-board .food {
-    background: #eaff00;
+    background :red;
     border-radius: 50%;
   }
   .play-board .head {
-    background: aqua;
+    background:green;
     border-radius: 50%;
   }
  
