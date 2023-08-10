@@ -130,8 +130,7 @@ const startBtn = document.getElementById("startBtn");
 startBtn.addEventListener("click", startGame);
 // Function to start the game
 function startGame() {
-    // Hide the start button
-    // startBtn.style.display = "none";
+   
 
     setIntervalId = setInterval(initalGame, 200);
 }
