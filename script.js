@@ -4,10 +4,12 @@ const highScoreElement = document.querySelector(".highscore");
 // const gridSize = 30;
 
 const eatSound = new Audio('sound/Metal Gear Menu.mp3');
-eatSound.volume=0.3;
+eatSound.volume=0.4;
 
 const hitSound = new Audio('sound/Pan Hit Sound In Game - Pubg Game.mp3');
 hitSound.volume = 1.0;
+
+const snakeColors = ['red', 'green', 'blue', 'orange', 'purple'];
 
 let gameover = false;
 let foodX , foodY ;
@@ -105,9 +107,10 @@ const initalGame = () => {
     playHitSound();
    }
 
-    for (let i=0; i < snakeBody.length; i++){
-    //add a div for each part of the snake body
-    htmlMarkup += `<div class="head" style="grid-area: ${snakeBody[i][1]} / ${snakeBody[i][0]}"></div>`;
+   for (let i = 0; i < snakeBody.length; i++) {
+    const segmentColor = snakeColors[i % snakeColors.length];
+    htmlMarkup += `<div class="head" style="grid-area: ${snakeBody[i][1]} / ${snakeBody[i][0]}; background-color: ${segmentColor};"></div>`;
+
    
     //checking if the snake head hit the body 
     if(i !== 0 && snakeBody[0][1] === snakeBody[i][1] && snakeBody[0][0] === snakeBody[i][0] ) {
