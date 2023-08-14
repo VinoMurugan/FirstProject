@@ -9,7 +9,7 @@ eatSound.volume=0.4;
 const hitSound = new Audio('sound/Pan Hit Sound In Game - Pubg Game.mp3');
 hitSound.volume = 1.0;
 
-const snakeColors = ['red', 'green', 'blue', 'orange', 'purple'];
+const snakeColors = ['blue', 'green', 'red', 'orange', 'purple'];
 
 let gameover = false;
 let foodX , foodY ;
