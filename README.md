@@ -28,6 +28,6 @@ The Snake Game is a simple yet nostalgic game that many of us played during our 
 - Clone this repository to your local machine.
 - Open the `index.html` file in a web browser to play the game.
 
-Feel free to  provide feedback, or suggest improvements. Enjoy the nostalgia and have fun playing the Snake Game!
+Feel free to  provide feedback, or suggest improvements. Have fun playing the Snake Game!
  
 
