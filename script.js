@@ -138,5 +138,5 @@ startBtn.addEventListener("click", startGame);
 
 // Function to start the game
 function startGame() {
-   setIntervalId = setInterval(initalGame, 200);
+   setIntervalId = setInterval(initalGame, 250);
 }
